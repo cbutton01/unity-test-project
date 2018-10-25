@@ -641,6 +641,12 @@
      <Compile Include="Assets\asset_store\Behavior Designer\Runtime\Variables\SharedVector3.cs" />
      <Compile Include="Assets\asset_store\Behavior Designer\Runtime\Variables\SharedVector3Int.cs" />
      <Compile Include="Assets\asset_store\Behavior Designer\Runtime\Variables\SharedVector4.cs" />
+ <Reference Include="Cinemachine">
+ <HintPath>D:/games/projects/10-25-18/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.ProBuilder.AddOns.Editor">
+ <HintPath>D:/games/projects/10-25-18/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>D:/games/projects/10-25-18/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
@@ -653,11 +659,11 @@
  <Reference Include="Unity.CollabProxy.Editor">
  <HintPath>D:/games/projects/10-25-18/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
+ <Reference Include="com.unity.cinemachine.editor">
+ <HintPath>D:/games/projects/10-25-18/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.TextMeshPro">
  <HintPath>D:/games/projects/10-25-18/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
- </Reference>
- <Reference Include="Unity.ProBuilder.AddOns.Editor">
- <HintPath>D:/games/projects/10-25-18/Library/ScriptAssemblies/Unity.ProBuilder.AddOns.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0b7/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -854,6 +860,9 @@
  <Reference Include="UnityEngine.SpatialTracking">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0b7/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
  </Reference>
+ <Reference Include="BehaviorDesignerRuntime">
+ <HintPath>D:/games/projects/10-25-18/Assets/asset_store/Behavior Designer/Runtime/BehaviorDesignerRuntime.dll</HintPath>
+ </Reference>
  <Reference Include="Unity.Analytics.Editor">
  <HintPath>D:/games/projects/10-25-18/Library/PackageCache/com.unity.analytics@3.0.9/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
@@ -866,23 +875,20 @@
  <Reference Include="Unity.Analytics">
  <HintPath>D:/games/projects/10-25-18/Library/PackageCache/com.unity.analytics@3.0.9/Android/Unity.Analytics.dll</HintPath>
  </Reference>
- <Reference Include="BehaviorDesignerRuntime">
- <HintPath>D:/games/projects/10-25-18/Assets/asset_store/Behavior Designer/Runtime/BehaviorDesignerRuntime.dll</HintPath>
+ <Reference Include="ProBuilderCore">
+ <HintPath>D:/games/projects/10-25-18/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderCore.dll</HintPath>
  </Reference>
  <Reference Include="ProBuilderMeshOps">
  <HintPath>D:/games/projects/10-25-18/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderMeshOps.dll</HintPath>
- </Reference>
- <Reference Include="Poly2Tri">
- <HintPath>D:/games/projects/10-25-18/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
- </Reference>
- <Reference Include="ProBuilderCore">
- <HintPath>D:/games/projects/10-25-18/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Classes/ProBuilderCore.dll</HintPath>
  </Reference>
  <Reference Include="KdTreeLib">
  <HintPath>D:/games/projects/10-25-18/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/KdTreeLib.dll</HintPath>
  </Reference>
  <Reference Include="pb_Stl">
  <HintPath>D:/games/projects/10-25-18/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/pb_Stl.dll</HintPath>
+ </Reference>
+ <Reference Include="Poly2Tri">
+ <HintPath>D:/games/projects/10-25-18/Library/PackageCache/com.unity.probuilder@3.0.9/ProBuilder/Classes/ClassesLib/Poly2Tri.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2018.3.0b7/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
