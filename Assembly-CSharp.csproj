@@ -641,6 +641,7 @@
      <Compile Include="Assets\asset_store\Behavior Designer\Runtime\Variables\SharedVector3.cs" />
      <Compile Include="Assets\asset_store\Behavior Designer\Runtime\Variables\SharedVector3Int.cs" />
      <Compile Include="Assets\asset_store\Behavior Designer\Runtime\Variables\SharedVector4.cs" />
+     <Compile Include="Assets\scripts\Player_Controller.cs" />
  <Reference Include="Cinemachine">
  <HintPath>D:/games/projects/10-25-18/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
  </Reference>
